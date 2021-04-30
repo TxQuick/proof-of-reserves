@@ -1,3 +1,10 @@
+
+/package-lock.json
+/nohup.out
+/nohup.err
+/.idea
+/js/bundle.js
+
 # Logs
 logs
 *.log

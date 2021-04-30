@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>TxQuick Root Hash Generator</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/FileSaver.js"></script>
+        <script type="text/javascript" src="js/bundle.js"></script>
+		<link rel="stylesheet" href="css/proof.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<div style="float: right;"><img src="images/txq-logo.png" width="230px" style="vertical-align: middle;"/></div>
+				<div style="padding-top: 10px;"><b>Proof of Reserves - Merkle Tree Generator</b></div>
+			</div>
+
+			<br/>
+			<br/>
+
+			<div>
+				<p>
+					Select Your Exchange Provided User Balances File
+				</p>
+				<br/>
+				<input class="exchangeFileUpload" type="file">
+			</div>
+
+			<div class="blueButton generateMerkleTree">Generate Merkle Tree</div>
+
+			<div class="displayField">
+				<b>Status:</b> <span class="stepOneStatus">Awaiting File Upload</span> <br>
+				<b>Proof Date:</b> <span class="fileProofDate"></span> <br>
+				<b>User Count:</b> <span class="userNums"></span> <br>
+				<b>Total Balances:</b> <span class="totalBalances"></span> <br>
+				<b>Merkle Root Hash:</b> <span class="computedRootHash"></span> <br>
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript">
+		$(function () {
+		})
+	</script>
+</html>
