@@ -49,7 +49,7 @@ Then follow the instructions provided.
 Log into your TxQuick account and browse to [Account], [Proof of Reserves]. (https://ca.txquick.com/account/profile/proofOfReserves) On that page you can see a list of all of the audits that have been done and your Proof Sentence for each audit. Copy your Proof Sentence from the Proof of Reserves audit you want to participate in. 
 
    <p align="center"> 
-    <img src="images/userdata.png" style="width:600px;"/>
+    <img src="images/userdata.png" border=2 style="width:600px;"/>
    </p>
 
 ### STEP 2 - Verify you were included in the Proof of Reserves File
@@ -57,19 +57,19 @@ Log into your TxQuick account and browse to [Account], [Proof of Reserves]. (htt
 Browse to one of the Verification Websites listed above and paste in your Proof Sentence. After you have pasted your Proof Sentence into the Verification Website, click the "Load Audit File" button.  The tool will download the Proof of Reserves file from GitHub. After the Audit File is loaded, next click the "Run Verification" button.
 
    <p align="center">
-    <img src="images/validate.png" alt="" style="width:600px;"/>
+    <img src="images/validate.png" border=2 alt="" style="width:600px;"/>
    </p>
 
 You should see a successful result looking something like this:
 
    <p align="center">
-    <img src="images/validate2.png" alt="" style="width:600px;"/>
+    <img src="images/validate2.png" border=2 alt="" style="width:600px;"/>
    </p>
 
 And further down on the page you should see verification of the Merkle Proof Result as well:
 
    <p align="center">
-    <img src="images/validate3.png" alt="" style="width:600px;"/>
+    <img src="images/validate3.png" border=2 alt="" style="width:600px;"/>
    </p>
 
 That's it!
@@ -103,7 +103,7 @@ The trusted third party now must independently publish the resulting data from t
 Users wishing to verify their balance is represented in the Merkle Tree will need to log into their TxQuick account, browse to their account Proof of Reserves page, and look up their Proof Sentence as of the time that Merkle Tree Proof was created.
 
    <p align="center"> 
-    <img src="images/userdata.png" style="width:600px;"/>
+    <img src="images/userdata.png" border=2 style="width:600px;"/>
    </p>
 
 #### STEP 2(B): Users download and install this software
@@ -115,7 +115,7 @@ Users wishing to run their own in-depth proof may download, inspect, install, an
 Finally users must open index.html in their browser. Then the user must input their own Proof Sentence and follow the instructions to run the verification process. If the user data and balance provided matches the record in the Merkle Tree, a successful result will be displayed together with the node location of the user information within the Merkle tree. The Merkle Tree's root hash will be re-calculated using the imported file so that the user can verify the root hash and compare it to the root hash the trusted third party published in Step 1(C) above to ensure the correctness and completeness of the Merkle Tree.
 
    <p align="center">
-    <img src="images/validate.png" alt="" style="width:600px;"/>
+    <img src="images/validate.png" border=2 alt="" style="width:600px;"/>
    </p>
 
 ### PART 3 - (All Participants) Proof of Assets
@@ -125,7 +125,7 @@ Finally users must open index.html in their browser. Then the user must input th
 TxQuick provides the public with the blockchain addresses used to store customer assets. TxQuick provides these addresses publicly at https://ca.txquick.com/walletStatus. To prove TxQuick owns the blockchain addresses in question, the public and a trusted third party may periodically observe TxQuick conducting transactions moving small pre-determined amounts from each major wallet identified.
 
    <p align="center">
-    <img src="images/walletstatus.png" alt="" style="width:600px;"/>
+    <img src="images/walletstatus.png" border=2 alt="" style="width:600px;"/>
    </p>
 
 #### STEP 3(B): The public and/or trusted third party adds up the balances all TxQuick public chain wallets
