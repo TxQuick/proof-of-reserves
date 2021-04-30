@@ -37,6 +37,7 @@ Previous implementations of Proof of Reserves systems were too difficult for non
 If you want to dive right in, you can start by browsing to one of the Participating Verification Websites:
 
 [TxQuick - Proof of Reserves](https://txquick.com/proof-of-reserves) 
+
 [Quadriga Initiative](https://quadrigainitiative.org/proof-of-reserves) (coming soon)
 
 Then follow the instructions provided.
@@ -45,7 +46,7 @@ Then follow the instructions provided.
 
 ### STEP 1 - Copy your Proof Sentence from the TxQuick website
 
-Log into your TxQuick account and browse to [Account], [Proof of Reserves]. (https://ca.txquick.com/account/profile/proofOfReserves) On that page you can see a list of all of the audits that have been done and your Proof Sentence for each audit. Copy your Proof Sentence from the Proof of Reserves audit you want to participate in, then paste it in the field below. If it is a valid Proof Sentence, we will automatically detect what file we need to load. 
+Log into your TxQuick account and browse to [Account], [Proof of Reserves]. (https://ca.txquick.com/account/profile/proofOfReserves) On that page you can see a list of all of the audits that have been done and your Proof Sentence for each audit. Copy your Proof Sentence from the Proof of Reserves audit you want to participate in. 
 
    <p align="center"> 
     <img src="images/userdata.png" style="width:600px;"/>
@@ -53,7 +54,7 @@ Log into your TxQuick account and browse to [Account], [Proof of Reserves]. (htt
 
 ### STEP 2 - Verify you were included in the Proof of Reserves File
 
-After you have pasted your Proof Sentence into the Verification Website, click the "Load Audit File" button.  The tool will download the Proof of Reserves file from GitHub. After the Audit File is loaded, next click the "Run Verification" button.
+Browse to one of the Verification Websites listed above and paste in your Proof Sentence. After you have pasted your Proof Sentence into the Verification Website, click the "Load Audit File" button.  The tool will download the Proof of Reserves file from GitHub. After the Audit File is loaded, next click the "Run Verification" button.
 
    <p align="center">
     <img src="images/validate.png" alt="" style="width:600px;"/>
